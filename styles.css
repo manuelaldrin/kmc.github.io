@@ -57,6 +57,7 @@ body{
 	.slick-slide,
 	.slick-arrow{
 		outline: 0;
+		border-radius: 0;
 		appearance: none;
 		-webkit-appearance: none;
 		-moz-appearance: none;
@@ -860,12 +861,6 @@ body{
 	overflow: hidden;
 }
 	
-	.featprop-container{
-		max-width: 1400px;
-		width: 100%;
-		padding: 0 15px;
-	}
-
 	.featprop-main-label {
 	    position: relative;
 	    text-transform: uppercase;
@@ -1274,6 +1269,27 @@ MEDIA QUERIES
 @media only screen and (max-width : 767px) {
 
 }
+
+
+@media only screen and (max-width : 576px) {
+	.featprop-item{
+		width: 100%;
+	    max-width: 360px;
+	    margin: auto;
+	    float: none;
+	}
+
+	.services-col-wrap {
+	    max-width: 360px;
+	    margin: 0 auto 30px;
+	}
+
+	.services-col{
+		width: 100%;
+		margin: 0;
+	}
+}
+
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
