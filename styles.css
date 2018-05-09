@@ -751,6 +751,7 @@ body{
 	padding: 90px 0;
 	text-align: center;
 	overflow: hidden;
+	z-index: 200;
 }
 
 	.services-wrap::before{
