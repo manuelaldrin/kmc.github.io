@@ -993,20 +993,20 @@ body{
 	}
 
 		/*hover*/
-		.featprop-item:hover .featprop-img::before {
+		.featprop-item a:hover .featprop-img::before {
 		    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,110%,0);
 		    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,110%,0);
 		}
 
-		.featprop-item:hover .featprop-img::after {
+		.featprop-item a:hover .featprop-img::after {
 			opacity: 0.7;
 		}
 
-		.featprop-item:hover .featprop-hover{
+		.featprop-item a:hover .featprop-hover{
 			bottom: 50%;
 		}
 
-		.featprop-item:hover .featprop-item-label{
+		.featprop-item a:hover .featprop-item-label{
 			opacity: 0;
 			visibility: hidden;
 		}
