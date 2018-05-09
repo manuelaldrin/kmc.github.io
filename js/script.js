@@ -8,7 +8,7 @@
 			this.chainHeightFunction();
 			this.fixedNavFunction();
 			this.magnificPopUpFunction();
-			this.modalFunction();
+			// this.modalFunction();
 			this.modalLinksFunction();
 		},
 
