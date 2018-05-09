@@ -1263,6 +1263,10 @@ MEDIA QUERIES
 		margin: 20px auto;
 	}
 
+	.contact-label{
+		margin-top: 0;
+	}
+
 
 }
 
