@@ -1243,6 +1243,10 @@ MEDIA QUERIES
 		margin-right: 5px;
 	}
 
+	.featprop-item{
+		height: 300px;
+	}
+
 	.services-wrap::after {
 	    background: url(images/services-bg.jpg) scroll no-repeat center bottom / cover;
 	}
