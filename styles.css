@@ -1283,6 +1283,7 @@ MEDIA QUERIES
 	    max-width: 360px;
 	    margin: auto;
 	    float: none;
+	   	height: 280px;
 	}
 
 	.services-col-wrap {
