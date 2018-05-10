@@ -939,6 +939,7 @@ body{
 	    position: relative;
 	    overflow: hidden;
 	    background: #000;
+	    height: 100%;
 	}
 
 	.featprop-img img{
@@ -1240,10 +1241,6 @@ MEDIA QUERIES
 
 	.featprop-icon{
 		margin-right: 5px;
-	}
-
-	.featprop-item-label {
-        min-height: 56px;
 	}
 
 	.services-wrap::after {
