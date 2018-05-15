@@ -311,6 +311,10 @@ body{
 		max-width: 150px;
 	}
 
+	.header-logo img{
+		width: 100%;
+	}
+
 	.header-logo a{
 		display: inline-block;
 	}
@@ -382,6 +386,11 @@ body{
 		height: 100%;
 		background: url(images/banner.jpg) fixed no-repeat center / cover;
 		z-index: 1;
+	}
+
+	.internetexplorer .banner-wrap::before,
+	.microsoftedge .banner-wrap::before{
+		background: url(images/banner.jpg) scroll no-repeat center / cover;
 	}
 
 	.banner-wrap::after{
@@ -767,6 +776,11 @@ body{
 		background: url(images/services-bg.jpg) fixed no-repeat center bottom / cover;
 	}
 
+	.internetexplorer .services-wrap::after,
+	.microsoftedge .services-wrap::after{
+		background: url(images/services-bg.jpg) scroll no-repeat center bottom / cover;
+	}
+
 	.services-label {
 	    position: relative;
 	    text-transform: uppercase;
@@ -1040,6 +1054,11 @@ body{
 	padding: 90px 0;
 	overflow: hidden;
 }
+
+	.internetexplorer .contact-wrap,
+	.microsoftedge .contact-wrap{
+		background: url(images/contact-bg.jpg) scroll no-repeat center / cover;
+	}
 
 	.contact-wrap::before{
 		content: '';
