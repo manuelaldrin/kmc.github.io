@@ -7,9 +7,9 @@
 			this.featpropFunction();
 			this.chainHeightFunction();
 			this.fixedNavFunction();
-			this.magnificPopUpFunction();
-			// this.modalFunction();
+			this.magnificPopUpFunction();			
 			this.modalLinksFunction();
+			this.browserDetector();
 		},
 
 		magnificPopUpFunction: function(){
@@ -173,6 +173,13 @@
 				$('.modal-backdrop').remove();
 			});
 
+		},
+
+		browserDetector: function(){
+			var browserName = bowser.name; 
+			var browserNameLowerCase = browserName.toLowerCase();
+			var browserNameTrim = browserNameLowerCase.replace(/\s+/g, '');
+			$('html').addClass(browserNameTrim);
 		}
 
 
@@ -181,11 +188,6 @@
 
 	$(document).ready( function() {
 		app.init();
-		var browserName = bowser.name; 
-		var browserNameLowerCase = browserName.toLowerCase();
-		var browserNameTrim = browserNameLowerCase.replace(/\s+/g, '');
-		$('html').addClass(browserNameTrim);
-
 	});
 
 	$(window).load(function () { 
