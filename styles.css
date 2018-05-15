@@ -815,12 +815,42 @@ body{
 	    display: block;
 	}
 
+	.services-col-wrap::before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 0;
+		background: rgba(0,0,0,0.3);
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+	}
+
+	.services-col-wrap::after{
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 0;
+		background: rgba(0,0,0,0.3);
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+	}
+
 	.services-icon {
 	    font-size: 40px;
 	    color: #fff;
 	    text-align: center;
 	    display: block;
 	    height: 40px;
+	    position: relative;
+	    z-index: 10;
 	}
 
 	.services-item-label {
@@ -830,6 +860,8 @@ body{
 	    font-weight: 300;
 	    text-transform: uppercase;
 	    margin: 15px 0 0;
+	    position: relative;
+	    z-index: 10;
 	}
 
 	.services-item-label span{
@@ -844,15 +876,19 @@ body{
 		margin-bottom: 30px;
 	}
 
-
 		/*Hover*/
-		.services-col-wrap:hover{
-			background: rgba(0, 0, 0, 0.6) !important;
-		}
-
 		.services-col-wrap:hover .services-icon{
 		 	color: #ffe94f;
 		}
+
+		.services-col-wrap:hover::before{
+			width: 100%;
+		}
+
+		.services-col-wrap:hover::after{
+			width: 100%;
+		}
+
 
 
 
