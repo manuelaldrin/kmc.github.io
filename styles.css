@@ -1292,6 +1292,10 @@ body{
 		margin-top: 0;
 	}
 
+	.services-col-wrap:hover .services-icon{
+	 	color: #fff;
+	}
+
 	.services-col-wrap:hover::before{
 		width: 0%;
 	}
