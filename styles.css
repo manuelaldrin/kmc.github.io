@@ -1292,6 +1292,14 @@ body{
 		margin-top: 0;
 	}
 
+	.services-col-wrap:hover::before{
+		width: 0%;
+	}
+
+	.services-col-wrap:hover::after{
+		width: 0%;
+	}
+
 	#return-to-top:hover {
 	    background: #1b3765;
 	}
